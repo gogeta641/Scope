@@ -38,3 +38,16 @@ enemies = ["Skeleton", "Zombie", "Alien"]
 
 if game_level < 5:
     new_enemy = enemies[0]
+
+# Modifying Global Scope
+
+enemies = 1
+
+def increase_enemies():
+    global enemies
+    enemies = 2
+    print(f"enemies inside functin: {enemies}")
+
+increase_enemies()
+
+print(f"enemies inside functin: {enemies}")
