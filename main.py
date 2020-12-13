@@ -52,3 +52,8 @@ def increase_enemies():
 increase_enemies()
 
 print(f"enemies inside functin: {enemies}")
+
+# Global Constants
+# Naming convention within Python is to turn the constant name into upper case
+
+PI = 3.14159
