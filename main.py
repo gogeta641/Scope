@@ -40,6 +40,7 @@ if game_level < 5:
     new_enemy = enemies[0]
 
 # Modifying Global Scope
+# Avoid modifying global scope using a function. You can use it to read if you want
 
 enemies = 1
 
